@@ -1,0 +1,14 @@
+package com.cts;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class DateTime {
+
+	public static void main(String[] args) {
+		LocalDate date3 = LocalDate.of(2014, Month.DECEMBER, 12);
+	      System.out.println("date3: " + date3);
+
+	}
+
+}

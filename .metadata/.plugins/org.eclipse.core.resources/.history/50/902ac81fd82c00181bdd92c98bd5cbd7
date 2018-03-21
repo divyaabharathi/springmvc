@@ -1,0 +1,20 @@
+package com.cts;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Month;
+
+public class DateTime {
+
+	public static void main(String[] args) {
+		LocalDate date = LocalDate.of(2017, Month.FEBRUARY, 10);
+	      System.out.println("date: " + date);
+	      LocalDate date1=LocalDate.ofYearDay(2017, 65);
+	      System.out.println("Day: " + date1);
+	      LocalTime date2=LocalTime.ofSecondOfDay(12345);
+	      System.out.println("date: " + date2);
+	      
+
+	}
+
+}
