@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="05_SpringMVC_HibernateEx"/>
+<aop-project name="002_springmvc_hibernate"/>
 <aop-project name="014springboot"/>
 </aop-reference-model>
